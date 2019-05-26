@@ -18,10 +18,6 @@ navigator.bluetooth.requestDevice({
         // Step 5: Write to the characteristic
         var data = new Uint8Array([0xbb, 0x25, 0x05, 0x44]);
         return characteristic.writeValue(data);
-    })
-    .catch(function(error) {
-        // And of course: error handling!
-        console.error('Connection failed!', error);
     });
 
 console.log("---", );
