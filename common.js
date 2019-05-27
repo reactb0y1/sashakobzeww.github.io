@@ -24,4 +24,4 @@ navigator.bluetooth.requestDevice({
         console.error('Connection failed!', error);
     });
 
-console.log("---", );
+console.log("----", );
