@@ -25,3 +25,10 @@ navigator.bluetooth.requestDevice({
     });
 
 console.log("---", );
+
+window.onload = () => {
+    const button = document.getElementById('pair')
+    button.addEventListener('pointerup', function(event) {
+        // TODO:
+    });
+}
